@@ -6,4 +6,3 @@ function sum(a,b){
     console.log('The result is', sum);
 
 }
-sum();

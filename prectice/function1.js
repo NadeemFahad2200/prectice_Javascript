@@ -15,8 +15,19 @@ const square = function (num) {
     
 }
 console.log(square);
-console.log(square(3));
+// console.log(square(3));
 
 
 // Nested Function 
+function addsquare(a,b) {
+    const sa = square(a);
+    const sb = square(b);
 
+    function square(num) {
+        return num*num;
+        
+    }
+    return sa + sb;
+    
+}
+console.log(addsquare(3, 4));

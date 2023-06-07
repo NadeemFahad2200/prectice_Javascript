@@ -16,3 +16,11 @@ function add(a, b) {
 // calling functions
 add(3,4);
 add(2,9);
+
+
+function say(message) {
+    console.log(message);
+}
+
+let result = say('Hello');
+console.log('Result:', result);

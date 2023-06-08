@@ -10,4 +10,14 @@ function nadeem(a ,b){
     return a + b;
 
 }
-console.log(nadeem(900, 1000));
+// console.log(nadeem(900, 1000));
+
+
+function sayHi() {
+	console.log(name);
+	console.log(age);
+	var name = "Lydia";
+	let age = 21;
+}
+
+sayHi();

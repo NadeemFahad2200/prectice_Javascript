@@ -13,11 +13,9 @@ function nadeem(a ,b){
 // console.log(nadeem(900, 1000));
 
 
-function sayHi() {
-	console.log(name);
-	console.log(age);
-	var name = "Lydia";
-	let age = 21;
-}
 
-sayHi();
+var bar = true;
+console.log(bar + 0);   
+console.log(bar + "xyz");  
+console.log(bar + true);  
+console.log(bar + false);

@@ -19,3 +19,8 @@ const greet = (count) =>{
     
 };
 greet(3);
+
+
+
+const square = (num) => num*num;
+console.log(square(70));

@@ -14,7 +14,8 @@ function nadeem(a ,b){
 
 
 
-const greet = () =>{
-    console.log("Nadeem Fahad");
+const greet = (count) =>{
+    for (let i = 0; i < count; i++) console.log("Nadeem Fahad");
+    
 };
-greet();
+greet(3);

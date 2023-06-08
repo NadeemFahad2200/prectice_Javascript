@@ -14,3 +14,7 @@ function nadeem(a ,b){
 
 
 
+const greet = () =>{
+    console.log("Nadeem Fahad");
+};
+greet();

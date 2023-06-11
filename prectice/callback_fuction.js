@@ -24,4 +24,14 @@ console.log(subresult);
 const divide = (a, b) => a * b;
 
 const div = calculate (8,3, divide);
-console.log(div);
+// console.log(div);
+
+
+const person = { name: "Lydia" };
+
+function sayHi(age) {
+	console.log(`${this.name} is ${age}`);
+}
+
+sayHi.call(person, 21);
+sayHi.bind(person, 21);

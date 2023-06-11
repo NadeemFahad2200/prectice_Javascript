@@ -15,7 +15,7 @@ const subtraction = (a, b) => a-b;
 
 const subresult = calculate (8,3, subtraction);
 
-console.log(subresult);
+// console.log(subresult);
 
 
 
@@ -33,8 +33,8 @@ function sayHi(age) {
 	console.log(`${this.name} is ${age}`);
 }
 
-sayHi.call(person, 21);
-sayHi.bind(person, 21);
+// sayHi.call(person, 21);
+// sayHi.bind(person, 21);
 
 
 0;
@@ -43,3 +43,13 @@ new Number(0);
 (" ");
 new Boolean(false);
 undefined;
+
+
+function Person(firstName, lastName) {
+	this.firstName = firstName;
+	this.lastName = lastName;
+}
+
+const lydia = new Person("Lydia", "Hallie");
+const sarah = Person("Sarah", "Smith");
+

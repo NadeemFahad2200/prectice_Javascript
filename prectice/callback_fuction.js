@@ -35,3 +35,10 @@ function sayHi(age) {
 
 sayHi.call(person, 21);
 sayHi.bind(person, 21);
+
+
+0;
+new Number(0);
+("");
+(" ");
+new Boolean(false);

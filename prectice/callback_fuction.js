@@ -50,8 +50,8 @@ function Person(firstName, lastName) {
 	this.lastName = lastName;
 }
 
-const lydia = new Person("Nadeem", "Hallie");
-const sarah = Person("Sarah", "Smith");
+const lydia = new Person("Nadeem", "Parveen");
+const sarah = Person("Fahad", "Aisha");
 
 console.log(Nadeem);
 // console.log(sarah);
